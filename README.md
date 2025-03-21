@@ -12,12 +12,6 @@ Ambuk Driver is a frontend web app for drivers to receive and manage ride reques
 ✅ **Protected Routes (Dashboard is only accessible after login)**  <br> 
 ✅ **Modern, Aesthetic UI with Gradients**   <br>
 
----
-
-## 📁 Project Structure
-
-ambuk-driver/ │── public/ │── src/ │ ├── components/ │ │ ├── Dashboard.js # Shows ride requests │ │ ├── Navbar.js # Top navigation bar │ │ ├── Login.js # Driver login page │ │ ├── Signup.js # Driver signup page │ ├── App.js # Main component with routes │ ├── index.js # Entry point │ ├── styles.css # Custom gradient styles │── package.json # Project dependencies │── README.md # Project documentation
-
 
 ---
 

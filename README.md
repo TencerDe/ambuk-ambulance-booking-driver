@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🚖 Ambuk Driver - Ride Booking System <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ambuk Driver is a frontend web app for drivers to receive and manage ride requests. Built using **React.js** with **pure CSS**, it provides a clean, gradient-style UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features <br>
 
-### `npm start`
+✅ **Driver Signup & Login**   <br>
+✅ **Local Authentication using `localStorage`**   <br>
+✅ **Dashboard to View Ride Requests**   <br>
+✅ **Protected Routes (Dashboard is only accessible after login)**  <br> 
+✅ **Modern, Aesthetic UI with Gradients**   <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+ambuk-driver/ │── public/ │── src/ │ ├── components/ │ │ ├── Dashboard.js # Shows ride requests │ │ ├── Navbar.js # Top navigation bar │ │ ├── Login.js # Driver login page │ │ ├── Signup.js # Driver signup page │ ├── App.js # Main component with routes │ ├── index.js # Entry point │ ├── styles.css # Custom gradient styles │── package.json # Project dependencies │── README.md # Project documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Installation & Setup <br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1️⃣ Clone the Repository   <br>
+```sh <br>
+git clone https://github.com/TencerDe/ambuk-ambulance-booking-driver.git <br>
+cd ambuk-driver <br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install <br>
+npm start <br>
 
-### `npm run eject`
+Usage Guide <br>
+1️⃣ Signup as a Driver → Go to /signup, enter your username & password, and sign up. <br>
+2️⃣ Login as a Driver → Enter your credentials on /login. If correct, you’ll be redirected to the dashboard. <br>
+3️⃣ View Ride Requests → After logging in, you’ll see ride requests on the dashboard. <br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🎨 Tech Stack <br>
+Frontend: React.js (No frameworks, pure CSS) <br>
+Routing: React Router <br>
+Authentication: LocalStorage (Temporary, to be replaced with Django backend) <br>
+ <br>
+🛠 Future Improvements <br>
+🔹 Backend Authentication (Django) 🔐 <br>
+🔹 Real-time Ride Requests (WebSockets) 📡 <br>
+🔹 Driver Status (Online/Offline) 🟢 <br>
+🔹 Dark Mode UI 🌙 <br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🤝 Contributing <br>
+Want to improve the project? Feel free to fork the repo and submit a PR!  <br>🚀
+ <br>
+Fork the repository <br>
+Create a new branch: git checkout -b feature-branch <br>
+Make changes & commit: git commit -m "Your message" <br>
+Push to your fork: git push origin feature-branch <br>
+Submit a pull request <br>
+ <br>
+📜 License <br>
+This project is MIT Licensed. Feel free to use, modify, and distribute. <br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📞 Contact <br>
+👨‍💻 Developer: Tencer <br>
+📧 Email: tsharma2907@gmail.com <br>
